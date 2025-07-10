@@ -6,8 +6,9 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    margin-left: 200px;
-    margin-right: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
+    box-shadow: 2px 1px 2px #eee;
 }
 
 .logo{
@@ -33,7 +34,7 @@ ul li a {
     justify-content: space-evenly;
     padding-left: 50px;
     padding-right: 20px;
-    color: gray;
+    color: #666;
 }
 
 .main-image{
@@ -61,7 +62,18 @@ ul li a {
     padding-top: 5px;
 }
 .button{
-    display: flex;
-    justify-content: center;
-    padding:50px;
+    display: inline-block;
+    margin-left: 800px;
+    margin-right: 800px;
+    padding: 10px 30px;
+    background-color:#387ed1;
+    color: #fff;
+    border-radius: 3px;
+    margin-top: 30px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+.button:hover{
+    background-color:  #28333f;
 }
