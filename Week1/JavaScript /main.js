@@ -72,11 +72,13 @@ console.log("End");
 
 let img = [87, 56, 34, 21];
 
-let rev = [];
+img.reverse();
+console.log(img);
 
-for (let i = 0; i < img.length; i++) {
-  let niskank = rev.shift(img[i]);
+// Write a function that finds the sum of two numbers.
+
+function sum(a, b) {
+  console.log(a + b);
 }
 
-console.log(niskank);
-
+sum(87, 65);
